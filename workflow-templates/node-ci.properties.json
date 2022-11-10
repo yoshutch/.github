@@ -1,0 +1,10 @@
+{
+  "name": "Node CI",
+  "description": "Continuous Integration workflow for most OIT node projects",
+  "categories": [
+    "Node"
+  ],
+  "filePatterns": [
+    "package.json$"
+  ]
+}

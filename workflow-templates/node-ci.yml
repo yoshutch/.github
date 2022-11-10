@@ -1,0 +1,7 @@
+on:
+  pull_request:
+    branches: [ $default-branch ]
+
+jobs:
+  CI:
+    uses: byu-oit-training/yoshutch-gha/.github/workflows/node-ci.yml@v1
